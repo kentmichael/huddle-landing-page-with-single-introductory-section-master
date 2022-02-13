@@ -1,0 +1,64 @@
+/* variables */
+/* fonts, colors */
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+
+  --font-fam-headings: 'Poppins', sans-serif;
+  --font-fam-body: 'Open Sans', sans-serif;
+  --font-weight-reg: 400;
+  --font-weight-semi-bold: 600;
+
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+}
+
+/* boilerplate */
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: var(--font-fam-body);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 50px;
+  padding: 0;
+  background: var(--violet) url(images/bg-mobile.svg) top left no-repeat scroll;
+  background-size: contain;
+  color: var(--white);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/* typography */
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+/* component */
+nav > img {
+  width: 40%;
+}
+
+aside > img {
+  width: 100%;
+}
