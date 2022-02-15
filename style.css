@@ -29,11 +29,14 @@ html {
 body {
   margin: 40px;
   padding: 0;
-  background: var(--violet) url(images/bg-mobile.svg) top left no-repeat scroll;
+  background: var(--violet) url(images/bg-mobile.svg) top left no-repeat;
   background-size: contain;
   color: var(--white);
   text-align: center;
   transition: all .1s;
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
 }
 
 /* typography */
@@ -116,12 +119,16 @@ footer > a:hover {
 @media (min-width:1440px) {
   body {
     margin: 60px;
-    background: var(--violet) url(images/bg-desktop.svg) top no-repeat scroll;
+    background: var(--violet) url(images/bg-desktop.svg) no-repeat;
     background-size: contain;
+    min-height: 100vh;
     text-align: left;
   }
   nav > img {
     width: 220px;
+  }
+  aside {
+    max-width: fit-content;
   }
   .main-container {
     grid-template-columns: 1fr 1fr;
