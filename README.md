@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Link to site - https://kentmichael.github.io/nft-preview-card-component-main/
+- Link to site - https://kentmichael.github.io/huddle-landing-page-with-single-introductory-section-master/
 
 ### Useful resources
 
