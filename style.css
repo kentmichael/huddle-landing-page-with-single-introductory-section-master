@@ -81,7 +81,7 @@ main > h1 {
 }
 
 main > a {
-  font-size: 12px;
+  font-size: 0.75rem;
   display: inline-block;
   background-color: var(--white);
   color: var(--violet);
@@ -97,7 +97,7 @@ main > a {
 }
 
 footer > a {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 5px;
   color: var(--white);
   border: 1px solid var(--white);
@@ -136,10 +136,10 @@ footer > a:hover {
   }
   main {
     padding: 50px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
   main > a {
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 10px 50px;
   }
   footer {
